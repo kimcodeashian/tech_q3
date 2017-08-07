@@ -1,45 +1,45 @@
 {
-  "resourceType": "Patient",
+  "resourceType": "Patient", // comma
   "id": "xcda",
-  "text": {
+  "text": { // opening brackt {
       "status": "generated",
       "div": "\n      \n      <p>Henry Levin the 7th</>\n    \n    </div>"
   },
-  "identifier": [
+  "identifier": [ // colon 
     {
       "use": "usual",
       "type": {
         "coding": [
           {
-            "system": "htt://hl7.org/fhir/v2/0203",
+            "system": "htt://hl7.org/fhir/v2/0203", //comma
             "code": "MR"
           }
         ]
       },
-      "system": "urn:oid:2.16.840.1.113883.19.5",
+      "system": "urn:oid:2.16.840.1.113883.19.5", //comma
       "value": "12345"
-    }
-  ],
+    } // closing bracket } 
+  ], // closing bracket ]
   "active": true,
   "name": [
     {
       "family": [
         "Levin"
-      ],
+      ], //comma 
       "given": [
         "Henry"
       ]
     }
-  ],
-  "gender": "male",
-  "birthDate": "2002-09-24",
+  ], //comma 
+  "gender": "male", // quotations around gender
+  "birthDate": "2002-09-24", //comma 
   "managingOrganization": {
     "reference": "Organization/2.16.840.1.113883.19.5",
     "display": "University Health Network"
   },
   "conditions": [
     "Diabetes",
-    "High blood pressure",
+    "High blood pressure", //comma
     "Asthma"
   ]
 };
